@@ -1,28 +1,27 @@
 import React, { Component } from 'react';
 
-import getData from './Data';
-
 class Camera extends Component {
 
     constructor(props) {
-        var arr = getData();
         super(props);
-        this.state = { arr };
+        this.state = {
+            brand: "Ford",
+            color: "Red",
+            year: 1964
+        }
     }
 
+    changeColorYellow = () => {
+        this.setState({ color: "yellow" })
+    }
 
     render() {
         return (
-            <div>
-                {
-                    this.state.arr.map(val =>
-                        <div>
-                            <h1>{val.name}</h1>
-                            <img src={val.image}></img>
-                            <h2>{val.category}</h2>
-                        </div>
-                    )
-                }
+            <div style={{ backgroundColor: this.state.color }}>
+                <h1>My {this.state.brand}</h1>
+                <p>Color: {this.state.color}</p>
+                <button type="button"
+                    onClick={this.changeColorYellow}>Yellow</button>
             </div>
 
         );
