@@ -23,7 +23,6 @@ class Camera extends Component {
                 <button type="button"
                     onClick={this.changeColorYellow}>Yellow</button>
             </div>
-
         );
     }
 }

@@ -2,8 +2,9 @@
 import './App.css';
 // import Sp from "../src/Components/Retangles/Sp"
 // import Member from './Components/States/Member';
-
-import Camera from './Components/States/Camera';
+// import Camera from './Components/States/Camera';
+// import Input_name from './Components/States/Input_name';
+import Fashion from './Components/States/Fashion';
 
 function App() {
   return (
@@ -17,8 +18,9 @@ function App() {
         price="$99.99"
         action="Add to cart"
       /> */}
-
-    <Camera></Camera>
+    {/* <Camera></Camera> */}
+    
+    <Fashion></Fashion>
 
 
     </div>
