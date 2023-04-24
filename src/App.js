@@ -7,9 +7,9 @@ import './App.css';
 // import Fashion from './Components/States/Fashion';
 // import Form from './Components/States/Form';
 // import Score from './Components/States/Score';
-// import Table_score from './Components/States/Table';
+import Table_score from './Components/States/Table_score';
 // import Count from './Components/States/Hook/Count';
-import Color from './Components/States/Hook/Color';
+// import Color from './Components/States/Hook/Color';
 
 function App() {
   return (
@@ -19,10 +19,10 @@ function App() {
       {/* <Input_name></Input_name> */}
       {/* <Form></Form> */}
       {/* <Score></Score> */}
-      {/* <Table_score></Table_score> */}
+      <Table_score></Table_score>
 
       {/* <Count></Count> */}
-      <Color></Color>
+      {/* <Color></Color> */}
 
     </div>
 
