@@ -4,27 +4,29 @@ import './App.css';
 // import Member from './Components/States/Member';
 // import Camera from './Components/States/Camera';
 // import Input_name from './Components/States/Input_name';
-import Fashion from './Components/States/Fashion';
+// import Fashion from './Components/States/Fashion';
+// import Form from './Components/States/Form';
+// import Score from './Components/States/Score';
+// import Table_score from './Components/States/Table';
+// import Count from './Components/States/Hook/Count';
+import Color from './Components/States/Hook/Color';
 
 function App() {
   return (
-    <div class="container">
+    <div>
+      {/* <Camera></Camera> */}
+      {/* <Fashion></Fashion> */}
+      {/* <Input_name></Input_name> */}
+      {/* <Form></Form> */}
+      {/* <Score></Score> */}
+      {/* <Table_score></Table_score> */}
 
-
-      {/* <Sp
-      add="https://i.pinimg.com/originals/8b/f6/52/8bf652304a716f8dd6ea24612808c078.jpg"
-        title="Váy"
-        description="ahsdjkfh askjdhfkj á aksjdhf kljlkas dflkjhadsl kd"
-        price="$99.99"
-        action="Add to cart"
-      /> */}
-    {/* <Camera></Camera> */}
-    
-    <Fashion></Fashion>
-
+      {/* <Count></Count> */}
+      <Color></Color>
 
     </div>
 
   );
 }
+
 export default App;

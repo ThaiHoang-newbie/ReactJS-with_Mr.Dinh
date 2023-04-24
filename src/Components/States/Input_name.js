@@ -8,15 +8,16 @@ class Input_name extends Component {
         };
     }
 
-onChange(e){
-    this.setState({name: e.target.value});
-}
+    myChange = (event) => {
+        this.setState({ name: event.target.value });
+    }
+    
 
     render() {
         return (
             <div>
-                <input type='text' onChange={this.onChange.bind(this)} value={this.state.name}></input>
-                <p>{this.state.name}</p>
+                <input type='text' onChange={this.myChange.bind(this)} value={this.state.name}></input>
+                <p>This is your entered: {this.state.name}</p>
             </div>
         );
     }
